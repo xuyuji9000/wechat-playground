@@ -6,7 +6,7 @@ $dotenv->load();
 
 $config = [
     'app_id' => getenv('APP_ID'),
-    'secret' => getenv('SECRET'),
+    'token' => getenv('TOKEN'),
 
     'response_type' => 'array',
 
