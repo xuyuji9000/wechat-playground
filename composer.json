@@ -1,0 +1,9 @@
+{
+    "name": "yogiman/wechat-demo",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "overtrue/wechat": "~4.0",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
