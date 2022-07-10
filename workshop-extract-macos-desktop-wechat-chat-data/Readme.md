@@ -17,7 +17,7 @@ This is a document preparation for a [XinCheJian](https://wiki.hackerspaces.org/
   If the participant is located within China, it's better to have VPN access as well, since **Homebrew** and **llvm** sources are blocked by GFW.
 
 
-# Software to Prepare
+# Softwares to Prepare
 
-- [software-to-prepare](./software-to-prepare.md)
+- [softwares-to-prepare](./softwares-to-prepare.md)
 
