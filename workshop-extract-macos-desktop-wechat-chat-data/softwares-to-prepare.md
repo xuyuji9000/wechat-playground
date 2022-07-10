@@ -14,6 +14,4 @@ There is one judgement need to make before start installing software. You have a
   
   `llvm` comes with it by default. And `llvm` is needed in the workshop.
 
-- Wechat Desktop(macOS Version)
-
-  Refer to this [link](https://mac.weixin.qq.com/) to download.
+- [Wechat Desktop(macOS Version)](https://mac.weixin.qq.com/)
