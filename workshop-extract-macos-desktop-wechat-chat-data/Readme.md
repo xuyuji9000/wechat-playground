@@ -12,7 +12,5 @@ This document is for a [XinCheJian](https://wiki.hackerspaces.org/Xinchejian) wo
 
   A fast Internet is the foundation of a smooth workshop experience.
 
-# Softwares to Prepare
-
 - [softwares-to-prepare](./softwares-to-prepare.md)
 
