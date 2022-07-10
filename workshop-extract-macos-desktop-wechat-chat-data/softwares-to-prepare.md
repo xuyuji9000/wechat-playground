@@ -8,12 +8,12 @@ There is one judgement need to make before start installing software. You have a
 
   Upgrade your macOS to latest if possible, preferably 12.4+.
   
-- Xcode
+- **Xcode**
 
   Install Xcode from App Store.
   
-  It comes with llvm, which is needed in the workshop.
+  `llvm` comes with it by default. And `llvm` is needed in the workshop.
 
-- Wechat Desktop(Mac Version)
+- Wechat Desktop(macOS Version)
 
   Refer to this [link](https://mac.weixin.qq.com/) to download.
