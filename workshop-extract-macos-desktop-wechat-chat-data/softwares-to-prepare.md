@@ -4,10 +4,16 @@ There is one judgement need to make before start installing software. You have a
 
 # Common Preparation
 
+- macOS
+
+  Upgrade your macOS to latest if possible, preferably 12.4+.
+  
+- Xcode
+
+  Install Xcode from App Store.
+  
+  It comes with llvm, which is needed in the workshop.
+
 - Wechat Desktop(Mac Version)
 
   Refer to this [link](https://mac.weixin.qq.com/) to download.
-
-- Xcode
-
-  Install Xcode for the llvm comes together with it.
