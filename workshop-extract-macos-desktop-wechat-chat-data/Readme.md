@@ -12,9 +12,6 @@ This document is for a [XinCheJian](https://wiki.hackerspaces.org/Xinchejian) wo
 
   A fast Internet is the foundation of a smooth workshop experience.
 
-  If the participant is located within China, it's better to have VPN access as well, since **Homebrew** and **llvm** sources are blocked by GFW.
-
-
 # Softwares to Prepare
 
 - [softwares-to-prepare](./softwares-to-prepare.md)
