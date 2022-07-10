@@ -6,7 +6,7 @@ There is one judgement need to make before start installing software. You have a
 
 - macOS
 
-  Upgrade your macOS to latest if possible, preferably 12.4+.
+  [Update your macOS](https://support.apple.com/en-us/HT201541) to latest if possible.
   
 - **Xcode**
 
