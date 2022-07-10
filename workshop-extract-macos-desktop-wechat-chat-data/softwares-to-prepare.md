@@ -10,8 +10,8 @@ There is one judgement need to make before start installing software. You have a
   
 - **Xcode**
 
-  Install Xcode from App Store.
+  Install Xcode from [App Store](https://apps.apple.com/us/app/xcode/id497799835?mt=12).
   
-  `llvm` comes with it by default. And `llvm` is needed in the workshop.
+  `llvm` comes with Xcode installation by default. And `llvm` will be needed in the workshop.
 
 - [Wechat Desktop(macOS Version)](https://mac.weixin.qq.com/)
