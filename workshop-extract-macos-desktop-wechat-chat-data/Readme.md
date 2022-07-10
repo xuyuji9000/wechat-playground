@@ -1,12 +1,10 @@
-This is a document preparation for a [XinCheJian](https://wiki.hackerspaces.org/Xinchejian) workshop.
+This document is for a [XinCheJian](https://wiki.hackerspaces.org/Xinchejian) workshop.
 
 # Suggested Requirements
 
-- OS: macOS Monterey 12.4
+- OS: macOS 
 
-  > The reason to put the machine requirement upfront is because the workshop presenter prepared the workshop under the listed machine conditions.
-
-- Participant is comfortable with openning [terminal](https://en.wikipedia.org/wiki/Terminal_(macOS))
+- Participant preferably is comfortable with [terminal](https://en.wikipedia.org/wiki/Terminal_(macOS))
 
 - Internet: 30MB/s + 
 
