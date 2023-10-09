@@ -8,7 +8,10 @@ const room_whitelist = [
 
 async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
-  console.log('msg room topic', await msg.room().topic())
+  
+  const room = msg.room()
+  console.log('msg room', room)
+  console.log('msg room topic', await room.topic())
 
   // if(!room_whitelist.includes(msg.room().topic()))
 
