@@ -2,9 +2,15 @@ import { WechatyBuilder } from 'wechaty'
 
 const wechaty = WechatyBuilder.build() // get a Wechaty instance
 
+const room_whitelist = [
+  "Xinchejian Bot Test"
+]
+
 async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
-  console.log('msg room body', await msg.room())
+  console.log('msg room topic', await msg.room().topic())
+
+  // if(!room_whitelist.includes(msg.room().topic()))
 
   if (msg.text() === 'ding') {
     await msg.say('dong')
