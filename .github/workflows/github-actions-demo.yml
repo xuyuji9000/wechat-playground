@@ -15,4 +15,8 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Install Node Dependency for "./wechaty-playground"
+        run: |
+          cd ${{ github.workspace }}/wechaty-playground/
+          npm install --verbose
       - run: echo "🍏 This job's status is ${{ job.status }}."
