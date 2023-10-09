@@ -10,8 +10,11 @@ async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
   
   const room = await msg.room()
-  console.log('msg room', room)
-  console.log('msg room topic', await room.topic())
+  // console.log('msg room', room)
+  if(room)
+  {
+    console.log('msg room topic', await room.topic())
+  }
 
   // if(!room_whitelist.includes(msg.room().topic()))
 
