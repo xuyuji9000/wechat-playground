@@ -10,17 +10,21 @@ async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
   
   const room = await msg.room()
-  // console.log('msg room', room)
   if(!room) return
 
-  console.log('msg room topic', await room.topic()) 
+  const topic = await room.topic()
+  console.log('msg room topic', topic)
+
+  if(!room_whitelist.includes(topic)) return
+  
+  if (msg.text() === 'ding') {
+    await msg.say('dong')
+  }
 
 
   // if(!room_whitelist.includes(msg.room().topic()))
 
-  if (msg.text() === 'ding') {
-    await msg.say('dong')
-  }
+  
 }
 
 wechaty
