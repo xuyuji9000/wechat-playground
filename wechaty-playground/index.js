@@ -4,7 +4,7 @@ const wechaty = WechatyBuilder.build() // get a Wechaty instance
 
 async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
-  console.log('msg body', msg)
+  console.log('msg room body', message.room())
 
   if (msg.text() === 'ding') {
     await msg.say('dong')
