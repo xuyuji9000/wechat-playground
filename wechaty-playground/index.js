@@ -18,7 +18,7 @@ async function onMessage(msg) {
   if(!room_whitelist.includes(topic)) return
   
   if (msg.text() === 'ding') {
-    await msg.say('dong')
+    await msg.say("Bot Message:\ndong")
   }
 
 
