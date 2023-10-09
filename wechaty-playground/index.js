@@ -11,10 +11,10 @@ async function onMessage(msg) {
   
   const room = await msg.room()
   // console.log('msg room', room)
-  if(room)
-  {
-    console.log('msg room topic', await room.topic())
-  }
+  if(!room) return
+
+  console.log('msg room topic', await room.topic()) 
+
 
   // if(!room_whitelist.includes(msg.room().topic()))
 
