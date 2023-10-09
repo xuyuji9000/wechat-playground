@@ -9,7 +9,7 @@ const room_whitelist = [
 async function onMessage(msg) {
   console.log('StarterBot', msg.toString())
   
-  const room = msg.room()
+  const room = await msg.room()
   console.log('msg room', room)
   console.log('msg room topic', await room.topic())
 
